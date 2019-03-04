@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!--
+Mini Phone Directory
+-->
+<html>
+    <head>
+        <title>Mini Phone Directory</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body style="margin: 0">
+        
+        <style type="text/css">
+
+        .theme_miniPhDir {
+            box-shadow: 0 0 2px #a9a4a4;
+            max-width: 520px;
+            margin: 50px auto 0 auto;
+            padding: 20px;
+            background: #f7f7f7;
+            font-family: sans-serif;
+            font-size: 13px;
+        }
+        .head{text-align: center;font-size: 20px;}
+        .opt_set {
+            font-size: 13px;margin-top: 10px; 
+        }
+        .btn{
+            padding: 5px;
+            box-shadow: 0 0 2px #d8d3d3;
+            display: inline-block;
+        }
+        .actBtn {
+            background: green;
+            display: inline;
+            padding: 2px 5px;
+            color: white;
+        }
+        .btn,.actBtn{cursor: pointer;}
+        .btn{
+            background: #f5de31;
+        }
+        .actBtn:hover,.btn:hover{box-shadow: 0 0 2px #484444;}
+        .btnGreen{background: #16a016;}
+        .btnRed{background: red;}
+        .slice1 {
+            margin: 10px 0;
+        }
+        .tableHead {
+            font-weight: bold;
+        }
+
+        .tableContent,.tableHead {
+            display: table-row-group;
+        }
+        .tblRow {
+            display: table-row;
+        }
+        .cmnCss {
+            display: table-cell;
+            padding: 5px;
+        }
+        .noth {
+            margin: 10px auto;
+            text-align: center;
+            font-style: italic;
+        }
+        input[type=text] {
+            margin: 2px 5px;
+            padding: 2px;
+            border: none;
+            box-shadow: 0 0 2px #868080;
+        }
+
+
+        </style>
+        
+        <div class="theme_miniPhDir">
+            <div class="opt">
+                <div class="head">Mini Phone Directory</div>
+                <div id="acts" class="opt_set"></div>
+            </div>
+            <div id="cntBody" class="recDis"></div>
+        </div>
+        
+        <div>
+            <script src="script.js" type="text/javascript"></script>
+        </div>
+        
+    </body>
+</html>
